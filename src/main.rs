@@ -145,7 +145,7 @@ fn main() -> Result<(), Error> {
             let mut interpreter = Interpreter::new(source);
             interpreter.run();
         },
-        None => println!("Error"),
+        None => println!("Please enter the relative path of the brainfuck file."),
     }
 
     Ok(())
